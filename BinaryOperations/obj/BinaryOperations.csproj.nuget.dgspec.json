@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Illia\\source\\repos\\BinaryOperations\\BinaryOperations.csproj": {}
+    "D:\\Programming\\cSharp\\dotnet-learning\\BinaryOperations\\BinaryOperations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Illia\\source\\repos\\BinaryOperations\\BinaryOperations.csproj": {
+    "D:\\Programming\\cSharp\\dotnet-learning\\BinaryOperations\\BinaryOperations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Illia\\source\\repos\\BinaryOperations\\BinaryOperations.csproj",
+        "projectUniqueName": "D:\\Programming\\cSharp\\dotnet-learning\\BinaryOperations\\BinaryOperations.csproj",
         "projectName": "BinaryOperations",
-        "projectPath": "C:\\Users\\Illia\\source\\repos\\BinaryOperations\\BinaryOperations.csproj",
+        "projectPath": "D:\\Programming\\cSharp\\dotnet-learning\\BinaryOperations\\BinaryOperations.csproj",
         "packagesPath": "C:\\Users\\Illia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Illia\\source\\repos\\BinaryOperations\\obj\\",
+        "outputPath": "D:\\Programming\\cSharp\\dotnet-learning\\BinaryOperations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Illia\\AppData\\Roaming\\NuGet\\NuGet.Config",

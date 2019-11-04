@@ -9,3 +9,14 @@ C:\Users\Illia\source\repos\BinaryOperations\obj\Debug\netcoreapp3.0\BinaryOpera
 C:\Users\Illia\source\repos\BinaryOperations\obj\Debug\netcoreapp3.0\BinaryOperations.AssemblyInfo.cs
 C:\Users\Illia\source\repos\BinaryOperations\obj\Debug\netcoreapp3.0\BinaryOperations.dll
 C:\Users\Illia\source\repos\BinaryOperations\obj\Debug\netcoreapp3.0\BinaryOperations.pdb
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\bin\Debug\netcoreapp3.0\BinaryOperations.exe
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\bin\Debug\netcoreapp3.0\BinaryOperations.deps.json
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\bin\Debug\netcoreapp3.0\BinaryOperations.runtimeconfig.json
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\bin\Debug\netcoreapp3.0\BinaryOperations.runtimeconfig.dev.json
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\bin\Debug\netcoreapp3.0\BinaryOperations.dll
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\bin\Debug\netcoreapp3.0\BinaryOperations.pdb
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\obj\Debug\netcoreapp3.0\BinaryOperations.csprojAssemblyReference.cache
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\obj\Debug\netcoreapp3.0\BinaryOperations.AssemblyInfoInputs.cache
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\obj\Debug\netcoreapp3.0\BinaryOperations.AssemblyInfo.cs
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\obj\Debug\netcoreapp3.0\BinaryOperations.dll
+D:\Programming\cSharp\dotnet-learning\BinaryOperations\obj\Debug\netcoreapp3.0\BinaryOperations.pdb
