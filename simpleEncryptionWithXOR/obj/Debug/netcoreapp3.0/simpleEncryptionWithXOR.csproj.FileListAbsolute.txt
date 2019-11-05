@@ -1,0 +1,10 @@
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\bin\Debug\netcoreapp3.0\simpleEncryptionWithXOR.exe
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\bin\Debug\netcoreapp3.0\simpleEncryptionWithXOR.deps.json
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\bin\Debug\netcoreapp3.0\simpleEncryptionWithXOR.runtimeconfig.json
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\bin\Debug\netcoreapp3.0\simpleEncryptionWithXOR.runtimeconfig.dev.json
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\bin\Debug\netcoreapp3.0\simpleEncryptionWithXOR.dll
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\bin\Debug\netcoreapp3.0\simpleEncryptionWithXOR.pdb
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\obj\Debug\netcoreapp3.0\simpleEncryptionWithXOR.AssemblyInfoInputs.cache
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\obj\Debug\netcoreapp3.0\simpleEncryptionWithXOR.AssemblyInfo.cs
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\obj\Debug\netcoreapp3.0\simpleEncryptionWithXOR.dll
+D:\Programming\cSharp\dotnet-learning\simpleEncryptionWithXOR\obj\Debug\netcoreapp3.0\simpleEncryptionWithXOR.pdb
