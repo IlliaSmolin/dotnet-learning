@@ -1,0 +1,11 @@
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\bin\Debug\netcoreapp3.0\ArraySortMethods.exe
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\bin\Debug\netcoreapp3.0\ArraySortMethods.deps.json
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\bin\Debug\netcoreapp3.0\ArraySortMethods.runtimeconfig.json
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\bin\Debug\netcoreapp3.0\ArraySortMethods.runtimeconfig.dev.json
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\bin\Debug\netcoreapp3.0\ArraySortMethods.dll
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\bin\Debug\netcoreapp3.0\ArraySortMethods.pdb
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\obj\Debug\netcoreapp3.0\ArraySortMethods.csprojAssemblyReference.cache
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\obj\Debug\netcoreapp3.0\ArraySortMethods.AssemblyInfoInputs.cache
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\obj\Debug\netcoreapp3.0\ArraySortMethods.AssemblyInfo.cs
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\obj\Debug\netcoreapp3.0\ArraySortMethods.dll
+D:\Programming\cSharp\dotnet-learning\ArraySortMethods\obj\Debug\netcoreapp3.0\ArraySortMethods.pdb
