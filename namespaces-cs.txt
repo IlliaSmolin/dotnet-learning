@@ -1,0 +1,6 @@
+System - string.Join(<by_what(e.g. " ")>, <what_to_join>) // joins smth to the one united string
+	   - string.Split(<by_what(e.g. " ")>, <what_to_split>) // splits to the string[] type
+
+System.Linq - arr.Min() //find minimal number in array "arr"
+			- arr.Where(el => func) //returns array sorted by func
+			- Enumerable.Repeat(<what_to_repeat>, <how_many_times>) //useful to add string to each other as much times as needed
