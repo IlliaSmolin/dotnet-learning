@@ -6,8 +6,9 @@ namespace ArraySortMethods
     {
         static void Main(string[] args)
         {
-            int[] oneDimRandomArr = new int[20];
-            int[,] twoDimRandomArr = new int[4, 6];
+            int[] oneDimRandomArr = new int[20]; //one dimensional array
+            int[,] twoDimRandomArr = new int[4, 6]; //two dimensional array
+            int[][] teethyArray = new int[3][];
             Random rnd = new Random();
             int arrLen = oneDimRandomArr.Length;
             int twoDimArrHeight = twoDimRandomArr.GetLength(0);
@@ -173,19 +174,29 @@ namespace ArraySortMethods
             Console.WriteLine("\n[Sorted by columns with modified bubble sort]:");
             showTDArray();
 
-            //quick sort code here
-            Console.WriteLine("\n[Sorted by rows with quick sort]:\n%placeholder%");
-            //showTDArray();
-            Console.WriteLine("\n[Sorted by columns with quick sort]:\n%placeholder%");
-            //showTDArray();
-
-            //benchmark of quick sort/modified bubble sort/pure bubble sort
-
             // arrays-in-array (multi-dimensional) code below
             Console.WriteLine("\n---------------------------------------------------------------\n");
             // arrays-in-array (multi-dimensional) code below
+            Console.WriteLine("[Teethy array]:");
+            teethyArray[0] = new int[3] { 1, 2, 3 };
+            teethyArray[1] = new int[5] { 1, 2, 3, 4, 5 };
+            teethyArray[2] = new int[4] { 1, 2, 3, 4 };
 
-
+            for (int row = 0; row < teethyArray.Length; row++)
+            {
+                Console.Write("[");
+                for (int column = 0; column < teethyArray[row].Length; column++)
+                {
+                    if (column == teethyArray[row].Length - 1)
+                    {
+                        Console.Write($"{teethyArray[row][column]}");
+                    } else
+                    {
+                        Console.Write($"{teethyArray[row][column]}, ");
+                    }
+                }
+                Console.WriteLine("]");
+            }
         }
     }
 }
