@@ -1,5 +1,6 @@
 System - string.Join(<by_what(e.g. " ")>, <what_to_join>) // joins smth to the one united string
 	   - string.Split(<by_what(e.g. " ")>, <what_to_split>) // splits to the string[] type
+	   - string.Substring(<start_index>, <end_index>) //returns string from start_index to end_index
 
 System.Linq - arr.Min() //find minimal number in array "arr"
 			- arr.Where(el => func) //returns array sorted by func
