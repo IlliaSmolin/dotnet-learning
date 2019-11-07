@@ -7,7 +7,7 @@ namespace ArraySortMethods
         static void Main(string[] args)
         {
             int[] oneDimRandomArr = new int[20];
-            int[,] twoDimRandomArr = new int[5, 10];
+            int[,] twoDimRandomArr = new int[4, 6];
             Random rnd = new Random();
             int arrLen = oneDimRandomArr.Length;
             int twoDimArrHeight = twoDimRandomArr.GetLength(0);
@@ -24,6 +24,17 @@ namespace ArraySortMethods
                     } else
                     {
                         Console.Write("{0}, ", oneDimRandomArr[i]);
+                    }
+                }
+            }
+
+            void fillTDArrayRandom()
+            {
+                for (int i = 0; i < twoDimArrHeight; i++)
+                {
+                    for (int j = 0; j < twoDimArrLength; j++)
+                    {
+                        twoDimRandomArr[i, j] = rnd.Next(10, 100);
                     }
                 }
             }
@@ -72,15 +83,7 @@ namespace ArraySortMethods
             Console.WriteLine("\n---------------------------------------------------------------\n");
             // two-dimensional arrays below
 
-
-            for (int i = 0; i < twoDimArrHeight; i++)
-            {
-                for (int j = 0; j < twoDimArrLength; j++)
-                {
-                    twoDimRandomArr[i, j] = rnd.Next(100);
-                }
-            }
-
+            fillTDArrayRandom();
             Console.WriteLine("!Two-dimensional arrays tab!\n\n[Random]:");
             showTDArray();
 
@@ -99,11 +102,14 @@ namespace ArraySortMethods
                             twoDimRandomArr[i, j] = temp;
                         }
                     } 
-
                 }
             }
 
             Console.WriteLine("\n[Sorted by rows with bubble sort]:");
+            showTDArray();
+
+            fillTDArrayRandom();
+            Console.WriteLine("\n[Random]:");
             showTDArray();
 
             for (int sort = 0; sort < twoDimArrHeight; sort++) //buble sort by columns
@@ -119,19 +125,53 @@ namespace ArraySortMethods
                             twoDimRandomArr[i, j] = temp;
                         }
                     }
-
                 }
             }
 
             Console.WriteLine("\n[Sorted by columns with bubble sort]:");
             showTDArray();
 
+            fillTDArrayRandom();
+            Console.WriteLine("\n[Random]:");
+            showTDArray();
 
-            //modified bubble sort here (j=-1 as I did on the CS course project)
-            Console.WriteLine("\n[Sorted by rows with modified bubble sort]:\n%placeholder%");
-            //showTDArray();
-            Console.WriteLine("\n[Sorted by columns with modified bubble sort]:\n%placeholder%");
-            //showTDArray();
+            for (int i = 0; i < twoDimArrHeight; i++) //modified bubble sort by rows
+            {
+                for (int j = 0; j < twoDimArrLength - 1; j++)
+                {
+                    if (twoDimRandomArr[i, j] > twoDimRandomArr[i, j + 1])
+                    {
+                        temp = twoDimRandomArr[i, j + 1];
+                        twoDimRandomArr[i, j + 1] = twoDimRandomArr[i, j];
+                        twoDimRandomArr[i, j] = temp;
+                        j = -1;
+                    }
+                }
+            }
+
+            Console.WriteLine("\n[Sorted by rows with modified bubble sort]:");
+            showTDArray();
+
+            fillTDArrayRandom();
+            Console.WriteLine("\n[Random]:");
+            showTDArray();
+
+            for (int j = 0; j < twoDimArrLength; j++) //modified bubble sort by columns
+            {
+                for (int i = 0; i < twoDimArrHeight - 1; i++)
+                {
+                    if (twoDimRandomArr[i, j] > twoDimRandomArr[i + 1, j])
+                    {
+                        temp = twoDimRandomArr[i + 1, j];
+                        twoDimRandomArr[i + 1, j] = twoDimRandomArr[i, j];
+                        twoDimRandomArr[i, j] = temp;
+                        i = -1;
+                    }
+                }
+            }
+
+            Console.WriteLine("\n[Sorted by columns with modified bubble sort]:");
+            showTDArray();
 
             //quick sort code here
             Console.WriteLine("\n[Sorted by rows with quick sort]:\n%placeholder%");
