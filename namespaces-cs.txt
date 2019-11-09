@@ -1,7 +1,15 @@
-System - string.Join(<by_what(e.g. " ")>, <what_to_join>) // joins smth to the one united string
-	   - string.Split(<by_what(e.g. " ")>, <what_to_split>) // splits to the string[] type
-	   - string.Substring(<start_index>, <end_index>) //returns string from start_index to end_index
+System - string.Join(<by_what(e.g. " ")>, <what_to_join>) //joins smth to the one united string
+	   - stringName.Split(<by_what(e.g. " ")>) //splits to the string[] type
+	   - stringName.Substring(<start_index>, <how_much_symbols_to_cut>) //returns string with <how_much_symbols_to_cut>.Length starting from start_index
+	   - stringName.Contains(string) //returns true/false if stringName contains string
+	   - all Math.*
+	   - Array.ConvertAll<inputType, outputType> (inputVar, <what_to_do>) //returns converted values from array to array. example: string[] to int[] => int[] integerArr = Array.ConvertAll<string, int>(stringArr, int.Parse);
+	   - stringName.Replace(<what>, <on_what>)
 
-System.Linq - arr.Min() //find minimal number in array "arr"
+System.Linq - arr.Min(<optional: el => func>) //find minimal number in array "arr", where el => func can be used to find minimal word by length in string[]. 	
+			Example: string sentence = "a bc def"; return sentence.Split(' ').Min(el => el.Length); //returns int minimal of the words in the sentence by length
 			- arr.Where(el => func) //returns array sorted by func
 			- Enumerable.Repeat(<what_to_repeat>, <how_many_times>) //useful to add string to each other as much times as needed
+			- stringName.Count (el => func) //returns count (int) of a func (e.g. str = "1231"; str.Count(el => el == "1") - outputs 2);
+			- arr/str.OrderBy(x => x) //returns ascending sorted IOrderedEnumerable, (x => -x) for descending.
+			- arr/str.OrderByDescending(x => x) //returns descending sorted IOrderedEnumerable, should be used with String.Concat(as the only parameter for example) or with String.Join("", here is Enum)
