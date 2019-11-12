@@ -8,8 +8,13 @@ System - string.Join(<by_what(e.g. " ")>, <what_to_join>) //joins smth to the on
 
 System.Linq - arr.Min(<optional: el => func>) //find minimal number in array "arr", where el => func can be used to find minimal word by length in string[]. 	
 			Example: string sentence = "a bc def"; return sentence.Split(' ').Min(el => el.Length); //returns int minimal of the words in the sentence by length
-			- arr.Where(el => func) //returns array sorted by func
+			- arr/str.Where(el => func) //returns IEnumerable filtered by func, should be used with String.Concat (as the only parameter for example)
 			- Enumerable.Repeat(<what_to_repeat>, <how_many_times>) //useful to add string to each other as much times as needed
 			- stringName.Count (el => func) //returns count (int) of a func (e.g. str = "1231"; str.Count(el => el == "1") - outputs 2);
 			- arr/str.OrderBy(x => x) //returns ascending sorted IOrderedEnumerable, (x => -x) for descending.
 			- arr/str.OrderByDescending(x => x) //returns descending sorted IOrderedEnumerable, should be used with String.Concat(as the only parameter for example) or with String.Join("", here is Enum)
+			- stringName.Select(el => func) //returns IEnumerable where each el is replaced by the func return. Should be used with String.Concat (as the only parameter for example)
+			- arr/str.Distinct() //returns IEnumerable without duplicates. Should be used with String.Concat (as the only parameter for example)
+			- arr.Take(n) //returns n first elements from the "arr" array
+			- arr.Skip(n) //returns all elements of the "arr" array except of the first n entries
+			- arr.Sum() //returns sum of all elements within the "arr" array
