@@ -3,7 +3,7 @@ System - string.Join(<by_what(e.g. " ")>, <what_to_join>) //joins smth to the on
 	   - stringName.Substring(<start_index>, <how_much_symbols_to_cut>) //returns string with <how_much_symbols_to_cut>.Length starting from start_index
 	   - stringName.Contains(string) //returns true/false if stringName contains string
 	   - all Math.*
-	   - Array.ConvertAll<inputType, outputType> (inputVar, <what_to_do>) //returns converted values from array to array. example: string[] to int[] => int[] integerArr = Array.ConvertAll<string, int>(stringArr, int.Parse);
+	   - Array.ConvertAll<inputType, outputType> (inputVar, <what_to_do>) //returns converted values from array to array. Example: string[] to int[] => int[] integerArr = Array.ConvertAll<string, int>(stringArr, int.Parse);
 	   - stringName.Replace(<what>, <on_what>)
 	   - str.PadLeft(finalLength, 'char') //returns the string with Length==finalLength with difference betweer actual length and final length is filled with 'char' symbol in the left side of the string. Example: string str = "abcd"; return str.PadLeft(6, '#'); //returns "##abcd"
 	   - str.PadRight //all the same as above
@@ -12,6 +12,7 @@ System.Linq - arr.Min(<optional: el => func>) //find minimal number in array "ar
 			Example: string sentence = "a bc def"; return sentence.Split(' ').Min(el => el.Length); //returns int minimal of the words in the sentence by length
 			- arr/str.Where(el => func) //returns IEnumerable filtered by func, should be used with String.Concat (as the only parameter for example)
 			- Enumerable.Repeat(<what_to_repeat>, <how_many_times>) //useful to add string to each other as much times as needed
+			- enum.Count() //returns Length of enum
 			- stringName.Count (el => func) //returns count (int) of a func (e.g. str = "1231"; str.Count(el => el == "1") - outputs 2);
 			- arr/str.OrderBy(x => x) //returns ascending sorted IOrderedEnumerable, (x => -x) for descending.
 			- arr/str.OrderByDescending(x => x) //returns descending sorted IOrderedEnumerable, should be used with String.Concat(as the only parameter for example) or with String.Join("", here is Enum)
@@ -20,3 +21,5 @@ System.Linq - arr.Min(<optional: el => func>) //find minimal number in array "ar
 			- arr.Take(n) //returns n first elements from the "arr" array
 			- arr.Skip(n) //returns all elements of the "arr" array except of the first n entries
 			- arr.Sum() //returns sum of all elements within the "arr" array
+			
+System.Text.RegularExpressions - Regex.IsMatch(str, @"") //returns true/false if @"" regular expression was found in str. Example: Regex.IsMatch(pin, @"^(\d{4}|\d{6})\z"); - returns true for all 4 and 6 length strings with digits only.
